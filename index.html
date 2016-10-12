@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- get jQuery from the google apis -->
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!-- CSS STYLE -->
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+<!-- jQuery Paradigm Slider  -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.cssAnimate.mini.js"></script>
+<script type="text/javascript" src="js/jquery.waitforimages.js"></script>
+<script type="text/javascript" src="js/jquery.touchwipe.min.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.paradigm.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+
+<!-- FONT IMPORT -->
+<link href='css/css.css' rel='stylesheet' type='text/css'>
+
+<!---->
+<script type="text/javascript">
+				
+$(function() {
+	$.noConflict();					 									
+	
+	jQuery('#banner-example-1').paradigm(
+		{										
+			width:900,
+			height:300,
+			
+			thumbWidth:90,
+			thumbHeight:50,
+			thumbAmount:6,							
+			thumbSpaces:4,
+			thumbPadding:4,
+			thumbStyle:"thumb",
+			thumbVideoIcon:"on",
+			bulletXOffset:0,
+			bulletYOffset:0,
+			
+			shadow:'true',
+			
+			parallaxX:500,
+			parallaxY:10,
+			captionParallaxX:-40,
+			captionParallaxY:2,
+			
+			touchenabled:'on',
+			
+			timer:5						
+		});
+		
+		
+	jQuery('#banner-example-2').paradigm(
+		{										
+			width:700,
+			height:300,
+			
+			thumbWidth:120,
+			thumbHeight:80,
+			thumbAmount:5,							
+			thumbSpaces:0,
+			thumbPadding:4,
+			thumbStyle:"bullet",
+			thumbVideoIcon:"on",
+			bulletXOffset:0,
+			bulletYOffset:0,
+			
+			shadow:'true',
+			
+			parallaxX:0,
+			parallaxY:0,
+			captionParallaxX:0,
+			captionParallaxY:0,
+			
+			touchenabled:'on',
+			
+			timer:0						
+		});
+		
+		
+});
+</script>
+<style>
+.fl{
+float:left;
+}
+ul{
+list-style:none;
+display:block;
+
+}
+
+li{
+float:left;
+}
+
+.headerblue {
+  width: 100%;
+  height: 40px;
+  background-color: #1c2757;
+}
+
+.search_box {
+  width: 120px;
+  height: 40px;
+  background-color: #141c3f;
+  float:right;
+}
+
+.search_blank {
+  width: 55px;
+  height: 17px;
+  opacity: 0.7;
+  font-family: Optima;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.amt_s {
+    float: right;
+    padding-top: 9px;
+}
+
+.search-submit{
+	float;left;
+	background:url("search.PNG") no repeat 0 0;
+	padding:0;
+	margin:0;
+}
+
+a{text-decoration:none}
+.login_box {
+  width: 104px;
+  height: 40px;
+  background-color: #4480ba;
+  float:right;
+}
+
+.login_word {
+  width: 49px;
+  height: 17px;
+  font-family: Optima;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+  display:inline;
+  margin:0 auto;
+}
+.center
+{
+	position:relative;
+	left:25%;
+	top:25%;
+}
+.center1
+{
+	position:relative;
+	right:15%;
+
+}
+
+.nav_bg {
+  width: 100%;
+  height: 102px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 3px 0 rgba(255, 0, 0, 0.5);
+}
+
+.flash_bg {
+  display:block;
+  width: 100%;
+  height: 1298px;
+  background-color: #f8f6ef;
+}
+
+#flash {
+    width: 980px;
+    height: 340px;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+
+.flash_bar {
+    width: 300px;
+    padding-left: 680px;
+    z-index: 69;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    padding-top: 13px!important;
+    padding-top: 12px;
+    left: 0px;
+    text-align: center;
+    bottom: 40px;
+}
+
+.bblank
+{
+	width:100%;
+	height:260px;
+	background-color:#f8f6ef;
+}
+.ecolumn{
+  float:left;
+  width:30%;
+  height: 530px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+}
+.dt{
+float:right;
+}
+.dttop {
+	width:200px;
+	background:url("../images/amt_not.jpg") no-repeat 0px -2px;
+	float:left;
+	color:#333333;
+	font-size:14px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+}
+
+.dtmore {
+	float:left;
+	height:22px;
+	line-height:22px;
+	width:40px;
+	text-align:right;
+}
+
+.cl {
+	clear:both;
+}
+
+.dtinfo {
+	width:290px;
+	padding-right:10px;
+	overflow:hidden;
+}
+.dtinfo ul {
+	padding:6px 0 0 1px;
+}
+.dtinfo li {
+	border-bottom:1px dotted #cccccc;
+	background:url("../images/infor_item.jpg") no-repeat scroll 0px 11px transparent;
+	line-height:26px;
+	height:26px;
+	overflow:hidden;
+	padding-left:10px;
+	width:278px;
+	margin-right:20px;
+	margin-bottom:2px;
+}
+.dtinfo li a:link, .fainfo li a:visited {
+	line-height:26px;
+	height:26px;
+	color:#666666;
+	text-decoration:none;
+}
+.dtinfo li a:hover {
+	color:#ff9900
+}
+.dtinfo li.noneline {
+	border:0;
+}
+
+.bline {
+float:left;
+  width: 10px;
+  height: 524px;
+  border: solid 1px #a9a7a7;
+}
+
+.yellow {
+  width:100%;
+  height: 30px;;
+  background-color: #eaa000;
+}
+.bottom {
+  width: 100%;
+  height: 183px;
+  background-color: #1c2757;
+}
+
+.quer {
+
+}
+</style>
+</head>
+
+<body>
+<div class="headerblue">
+
+	<div class="login_box">
+		<div class="login_word">
+			<div class="center">
+			<a  href="/html/LOGIN/">LOG IN</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="search_box">
+		<div class="search_blank">
+			<div class="amt_s">
+			  <form  name="formsearch" action="/plus/search.php">
+				<input type="text" class="amt_key" name="keyword" id="keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+
+				  <button type="submit" class="search-submit">搜索</button>
+
+			  </form>
+			</div>
+		</div>
+	</div>
+	
+
+</div>
+
+<div class="nav_bg">
+	<div>
+		<ul>
+			<li>
+				<a style href="/html/ABOUT US/" ID ="nav_menu1" rel="dropmenu1">ABOUT US</a>
+			</li>
+			<li>
+				<a style href="/html/EVENTS/" ID ="nav_menu1" rel="dropmenu1">EVENTS</a>
+			</li>
+			<li>
+				<a style href="/html/NEWS ROOM/" ID ="nav_menu1" rel="dropmenu1">NEWS ROOM</a>
+			</li>
+			<li>
+				<a style href="/html/PROJECTS/" ID ="nav_menu1" rel="dropmenu1">PROJECTS</a>
+			</li>
+		</ul>
+    </div>
+</div>
+
+<div class="flash_bg">
+	<div  id="banner-example-1" class="light" style="margin-top:0px;">
+		<ul>
+			<!-- THE 1. SLIDE -->
+			<li data-transition="fade"><img src="images/slide_11.jpg" data-thumb="images/slide_12.jpg" data-thumb_bw="images/slide_13.jpg" alt="" />
+				<div  class="creative_layer">
+					<div class="caption_blue fadeup" style="top:500px;left:100px;">Welcome to PARADIGM</div>
+					<div class="caption_black smallcap faderight" style="top:213px;left:90px">The highly customizable slider solution</div>
+				</div>
+			</li>
+			
+			<!-- THE 2. SLIDE -->
+			<li data-transition="fade"><img src="images/slide_21.jpg" data-thumb="images/slide_22.jpg" data-thumb_bw="images/slide_23.jpg" alt="" />
+				<div  class="creative_layer">
+					<div class="caption_blue fadeup" style="top:170px;left:50px;">Welcome to PARADIGM</div>
+					<div class="caption_black smallcap faderight" style="top:213px;left:90px">The highly customizable slider solution</div>
+				</div>
+			</li>
+			
+			<!-- THE 3. SLIDE -->
+			<li data-transition="slide"><img src="images/slide_2.jpg" data-thumb="images/thumb2.jpg" data-thumb_bw="images/thumb2_bw.jpg" alt="" />
+				<div  class="creative_layer">
+					<div class="caption_green fadedown" style="top:80px;left:550px;">Some of Paradigm's Options:</div>
+					<div class="caption_black smallcap fadeleft" style="top:123px;left:550px">Image and thumbs fully resizable</div>
+					<div class="caption_black smallcap fadeleft" style="top:157px;left:550px">Optional parallax effect</div>
+					<div class="caption_black smallcap fadeleft" style="top:191px;left:550px">iPhone & Android touch enabled</div>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+	<div class="bblank">
+	</div>
+	<div class="center1">
+
+		<div class="dt">
+		NEWs
+			<div class="fl">
+			  <div class="dttop"></div>
+			  <div class="dtmore"><a href="/html/AboutAMT/CompanyNews/list_8_1.html"  target="_blank"><img alt="更多" src="images/more.jpg"></a></div>
+			</div>
+			<div class="cl"><img src="images/info_line1.jpg"/></div>
+			<div class="dtinfo">
+			  <ul>
+				<li><a href='/html/AboutAMT/CompanyNews/534.html' target="_blank" title="AMT咨询知识驱动管理成就论坛圆满落幕">AMT咨询知识驱动管理成就论坛圆满落幕</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/530.html' target="_blank" title="AMT可持续成长：加速企业管理升级论坛重">AMT可持续成长：加速企业管理升级论坛重</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/510.html' target="_blank" title="AMT咨询加速西南企业管理升级论坛落幕">AMT咨询加速西南企业管理升级论坛落幕</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/509.html' target="_blank" title="AMT助力罗莱家纺协同管理平台成功上线">AMT助力罗莱家纺协同管理平台成功上线</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/468.html' target="_blank" title="AMT咨询加速中原企业管理升级论坛在豫落">AMT咨询加速中原企业管理升级论坛在豫落</a></li>
+			  </ul>
+			</div>
+		</div>
+
+		<div class="dt">
+		EVENTS
+			<div class="fl">
+			  <div class="dttop"></div>
+			  <div class="dtmore"><a href="/html/AboutAMT/CompanyNews/list_8_1.html"  target="_blank"><img alt="更多" src="images/more.jpg"></a></div>
+			</div>
+			<div class="cl"><img src="images/info_line1.jpg"/></div>
+			<div class="dtinfo">
+			  <ul>
+				<li><a href='/html/AboutAMT/CompanyNews/534.html' target="_blank" title="AMT咨询知识驱动管理成就论坛圆满落幕">AMT咨询知识驱动管理成就论坛圆满落幕</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/530.html' target="_blank" title="AMT可持续成长：加速企业管理升级论坛重">AMT可持续成长：加速企业管理升级论坛重</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/510.html' target="_blank" title="AMT咨询加速西南企业管理升级论坛落幕">AMT咨询加速西南企业管理升级论坛落幕</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/509.html' target="_blank" title="AMT助力罗莱家纺协同管理平台成功上线">AMT助力罗莱家纺协同管理平台成功上线</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/468.html' target="_blank" title="AMT咨询加速中原企业管理升级论坛在豫落">AMT咨询加速中原企业管理升级论坛在豫落</a></li>
+			  </ul>
+			</div>
+		</div>
+		
+		<div class="dt">
+		Publications
+			<div class="fl">
+			  <div class="dttop"></div>
+			  <div class="dtmore"><a href="/html/AboutAMT/CompanyNews/list_8_1.html"  target="_blank"><img alt="更多" src="images/more.jpg"></a></div>
+			</div>
+			<div class="cl"><img src="images/info_line1.jpg"/></div>
+			<div class="dtinfo">
+			  <ul>
+				<li><a href='/html/AboutAMT/CompanyNews/534.html' target="_blank" title="AMT咨询知识驱动管理成就论坛圆满落幕">AMT咨询知识驱动管理成就论坛圆满落幕</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/530.html' target="_blank" title="AMT可持续成长：加速企业管理升级论坛重">AMT可持续成长：加速企业管理升级论坛重</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/510.html' target="_blank" title="AMT咨询加速西南企业管理升级论坛落幕">AMT咨询加速西南企业管理升级论坛落幕</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/509.html' target="_blank" title="AMT助力罗莱家纺协同管理平台成功上线">AMT助力罗莱家纺协同管理平台成功上线</a></li>
+				<li><a href='/html/AboutAMT/CompanyNews/468.html' target="_blank" title="AMT咨询加速中原企业管理升级论坛在豫落">AMT咨询加速中原企业管理升级论坛在豫落</a></li>
+			  </ul>
+			</div>
+		</div>
+
+	</div>
+</div>
+	
+	
+<div class="yellow">
+</div>
+<div class="bottom">
+	<div>
+		<ul>
+			<li>
+				<a style href="/html/ABOUT US/" ID ="nav_menu1" rel="dropmenu1">ABOUT US</a>
+			</li>
+			<li>
+				<a style href="/html/EVENTS/" ID ="nav_menu1" rel="dropmenu1">EVENTS</a>
+			</li>
+			<li>
+				<a style href="/html/NEWS ROOM/" ID ="nav_menu1" rel="dropmenu1">NEWS ROOM</a>
+			</li>
+			<li>
+				<a style href="/html/PROJECTS/" ID ="nav_menu1" rel="dropmenu1">PROJECTS</a>
+			</li>
+		</ul>
+    </div>
+	
+	<div="center">
+		<div ="quer">
+		</div>
+	</div>
+</div>
+</body>
+</html>
