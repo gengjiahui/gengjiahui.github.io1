@@ -1,0 +1,302 @@
+.fl{
+float:left;
+}
+ul{
+list-style:none;
+display:block;
+
+}
+
+li{
+float:left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.headerblue {
+  width: 100%;
+  height: 40px;
+  background-color: #1c2757;
+}
+
+.search_box {
+  width: 120px;
+  height: 40px;
+  background-color: #141c3f;
+  float:right;
+}
+
+.search_blank {
+  width: 55px;
+  height: 17px;
+  opacity: 0.7;
+  font-family: Optima;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.amt_s {
+    float: right;
+    padding-top: 9px;
+}
+
+.search-submit{
+	float;left;
+	background:url("search.PNG") no repeat 0 0;
+	padding:0;
+	margin:0;
+}
+
+a{text-decoration:none}
+.login_box {
+  width: 104px;
+  height: 40px;
+  background-color: #4480ba;
+  float:right;
+}
+
+.login_word {
+  width: 49px;
+  height: 17px;
+  font-family: Optima;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+  display:inline;
+  margin:0 auto;
+}
+.center
+{
+	position:relative;
+	left:25%;
+	top:25%;
+}
+.center1
+{
+	position:relative;
+	right:15%;
+
+}
+.center2{
+	position: relative;
+	left:37%;
+	display: inline;
+
+}
+.font_index{
+	font-family: Optima;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	color: #676363;
+	display:inline;
+	margin:0 auto;
+
+
+}
+
+.nav_bg {
+  width: 100%;
+  height: 102px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 3px 0 rgba(255, 0, 0, 0.5);
+}
+
+.flash_bg {
+  display:block;
+  width: 100%;
+  height: 1298px;
+  background-color: #f8f6ef;
+}
+
+#flash {
+    width: 980px;
+    height: 340px;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+
+.flash_bar {
+    width: 300px;
+    padding-left: 680px;
+    z-index: 69;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    padding-top: 13px!important;
+    padding-top: 12px;
+    left: 0px;
+    text-align: center;
+    bottom: 40px;
+}
+
+.bblank
+{
+	width:100%;
+	height:260px;
+	background-color:#f8f6ef;
+}
+.ecolumn{
+  float:left;
+  width:30%;
+  height: 530px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+}
+.dt{
+float:right;
+}
+.news_top {
+  width: 355px;
+  height: 9px;
+  background-color: #082859;
+}
+.dttop {
+	width:200px;
+	background:url("../images/amt_not.jpg") no-repeat 0px -2px;
+	float:left;
+	color:#333333;
+	font-size:14px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+}
+
+.Line {
+	display: inline;
+	width: 3px;
+	height: 18px;
+	border: solid 3px #a9a7a7;
+}
+.dtmore {
+	float:left;
+	height:22px;
+	line-height:22px;
+	width:40px;
+	text-align:right;
+}
+
+.cl {
+	clear:both;
+}
+
+.dtinfo {
+	width:290px;
+	padding-right:10px;
+	overflow:hidden;
+}
+.dtinfo ul {
+	padding:6px 0 0 1px;
+}
+.dtinfo li {
+	border-bottom:1px dotted #cccccc;
+	background:url("../images/infor_item.jpg") no-repeat scroll 0px 11px transparent;
+	line-height:26px;
+	height:26px;
+	overflow:hidden;
+	padding-left:10px;
+	width:278px;
+	margin-right:20px;
+	margin-bottom:2px;
+}
+.dtinfo li a:link, .fainfo li a:visited {
+	line-height:26px;
+	height:26px;
+	color:#666666;
+	text-decoration:none;
+}
+.dtinfo li a:hover {
+	color:#ff9900
+}
+.dtinfo li.noneline {
+	border:0;
+}
+.font_news {
+  width: 71px;
+  height: 31px;
+  font-family: Futura;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.5px;
+  color: #4a4a4a;
+}
+
+.All-News {
+  width: 60px;
+  height: 20px;
+  font-family: Futura;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4480ba;
+}
+
+.bline {
+float:left;
+  width: 10px;
+  height: 524px;
+  border: solid 1px #a9a7a7;
+}
+
+.yellow {
+  width:100%;
+  height: 30px;;
+  background-color: #eaa000;
+}
+.bottom {
+  width: 100%;
+  height: 183px;
+  background-color: #1c2757;
+}
+
+.quer {
+
+}
